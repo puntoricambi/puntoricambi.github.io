@@ -297,7 +297,7 @@
 
 </div>
 <script>$(document).ready(function() {
-        if(window.location.search.substr(1) != "dev=dev" || confirm("Questo sito web è in manutenzione, l'accesso è consentito solo agli sviluppatori. Cliccare su 'OK' per uscire")) { window.location = "about:blank"; }
+        if(confirm("Questo sito web è in manutenzione, l'accesso è consentito solo agli sviluppatori. Cliccare su 'OK' per uscire")) { window.location = "about:blank"; }
     var toggleIcon = $('.main-header-toggle')
 var wrapper = $('.page-wrapper')
 toggleIcon.on('click', function() {
