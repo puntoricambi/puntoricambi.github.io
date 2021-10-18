@@ -1,2 +1,12 @@
-User-agent: archive.org_bot
+User-agent: *
 Disallow: /
+
+User-agent: Googlebot
+Allow: /
+Disallow: /privacy.html
+User-agent: Slurp
+Allow: /
+Disallow: /privacy.html
+User-Agent: msnbot
+Allow: /
+Disallow: /privacy.html
